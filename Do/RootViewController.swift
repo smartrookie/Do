@@ -10,7 +10,10 @@ import UIKit
 
 class RootViewController: UITableViewController {
     
-    let dataSource = ["Do TableView","Do GridView","CollectionView"]
+    let dataSource = ["Do TableView",
+                      "Do GridView",
+                      "CollectionView",
+                      "LoopScroller"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,6 +68,9 @@ class RootViewController: UITableViewController {
         else if textSelected == "CollectionView" {
             let layout = UICollectionViewFlowLayout()
             viewController = CollectionViewController(collectionViewLayout: layout)
+        }
+        else if textSelected == "LoopScroller" {
+            viewController = LoopScrollViewController()
         }
         else {
             viewController = UIViewController()
