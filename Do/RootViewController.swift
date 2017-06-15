@@ -13,7 +13,8 @@ class RootViewController: UITableViewController {
     let dataSource = ["Do TableView",
                       "Do GridView",
                       "CollectionView",
-                      "LoopScroller"]
+                      "LoopScroller",
+                      "PageLoopScroller"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,6 +72,9 @@ class RootViewController: UITableViewController {
         }
         else if textSelected == "LoopScroller" {
             viewController = LoopScrollViewController()
+        }
+        else if textSelected == "PageLoopScroller" {
+            viewController = PageLoopScrollController()
         }
         else {
             viewController = UIViewController()

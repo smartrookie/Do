@@ -15,6 +15,8 @@
 		6537F1691E5C1C5F0024B34B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6537F1681E5C1C5F0024B34B /* CollectionViewController.swift */; };
 		65408A371E651CDC009AA1E1 /* DoLoopScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65408A361E651CDC009AA1E1 /* DoLoopScroller.swift */; };
 		65408A391E654D0E009AA1E1 /* LoopScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65408A381E654D0E009AA1E1 /* LoopScrollViewController.swift */; };
+		65408A3D1E66D7D2009AA1E1 /* DoPageLoopScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65408A3C1E66D7D2009AA1E1 /* DoPageLoopScroller.swift */; };
+		65408A3F1E66D7F4009AA1E1 /* PageLoopScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65408A3E1E66D7F4009AA1E1 /* PageLoopScrollController.swift */; };
 		6581DBA01E5722C60089C6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6581DB9F1E5722C60089C6D3 /* AppDelegate.swift */; };
 		6581DBA21E5722C60089C6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6581DBA11E5722C60089C6D3 /* ViewController.swift */; };
 		6581DBA51E5722C60089C6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6581DBA31E5722C60089C6D3 /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		6537F1681E5C1C5F0024B34B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		65408A361E651CDC009AA1E1 /* DoLoopScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoLoopScroller.swift; sourceTree = "<group>"; };
 		65408A381E654D0E009AA1E1 /* LoopScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopScrollViewController.swift; sourceTree = "<group>"; };
+		65408A3C1E66D7D2009AA1E1 /* DoPageLoopScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoPageLoopScroller.swift; sourceTree = "<group>"; };
+		65408A3E1E66D7F4009AA1E1 /* PageLoopScrollController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageLoopScrollController.swift; sourceTree = "<group>"; };
 		6581DB9C1E5722C60089C6D3 /* Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6581DB9F1E5722C60089C6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6581DBA11E5722C60089C6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 				6537F15F1E5BE1060024B34B /* DoGridView.swift */,
 				6537F1641E5C0DDD0024B34B /* DoGridViewCell.swift */,
 				65408A361E651CDC009AA1E1 /* DoLoopScroller.swift */,
+				65408A3C1E66D7D2009AA1E1 /* DoPageLoopScroller.swift */,
 			);
 			path = DoKit;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				6537F1661E5C0E0F0024B34B /* GridViewController.swift */,
 				6537F1681E5C1C5F0024B34B /* CollectionViewController.swift */,
 				65408A381E654D0E009AA1E1 /* LoopScrollViewController.swift */,
+				65408A3E1E66D7F4009AA1E1 /* PageLoopScrollController.swift */,
 				6537F1611E5BE2E10024B34B /* DoKit */,
 				6581DBA31E5722C60089C6D3 /* Main.storyboard */,
 				6581DBA61E5722C60089C6D3 /* Assets.xcassets */,
@@ -178,10 +184,12 @@
 				6581DBA21E5722C60089C6D3 /* ViewController.swift in Sources */,
 				65408A391E654D0E009AA1E1 /* LoopScrollViewController.swift in Sources */,
 				6581DBB21E5722E50089C6D3 /* DoTableView.swift in Sources */,
+				65408A3F1E66D7F4009AA1E1 /* PageLoopScrollController.swift in Sources */,
 				6581DBB41E5722F80089C6D3 /* DoTableViewCell.swift in Sources */,
 				6537F1651E5C0DDD0024B34B /* DoGridViewCell.swift in Sources */,
 				6537F1691E5C1C5F0024B34B /* CollectionViewController.swift in Sources */,
 				6537F1631E5BE5290024B34B /* RootViewController.swift in Sources */,
+				65408A3D1E66D7D2009AA1E1 /* DoPageLoopScroller.swift in Sources */,
 				6537F1601E5BE1060024B34B /* DoGridView.swift in Sources */,
 				65408A371E651CDC009AA1E1 /* DoLoopScroller.swift in Sources */,
 				6581DBA01E5722C60089C6D3 /* AppDelegate.swift in Sources */,
